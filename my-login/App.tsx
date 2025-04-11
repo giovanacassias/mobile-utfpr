@@ -1,14 +1,14 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Login from "./src/components/Login";
+import Reset from "./src/components/Reset";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Choose a new password</Text>
       <StatusBar style="auto" />
-      <Login />
+      <Reset />
     </View>
   );
 }
